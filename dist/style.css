@@ -1,0 +1,60 @@
+body {
+    background: #292019;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 16px;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+.nav .tab {
+    display: inline;
+    color: #ab824e;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.5rem;
+    background: #82460a;
+    margin: 0.5rem;
+    border-radius: 4px;
+}
+
+.nav .tab:hover {
+    cursor: pointer;
+    color: #e8c9ac;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
+    color: #e8c9ac;
+    font-size: 5rem;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.copy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #ab824e;
+}
+.copy img {
+    width: 500px;
+}
+
+.text {
+    width: 700px;
+    text-align: center;
+}
